@@ -1,6 +1,6 @@
 @media (max-width: 960px) {
     main {
-        margin-top: 60px;
+        margin-top: 96px;
     }
 
     .logo {
@@ -54,25 +54,95 @@
         text-align: center;
     }
 
-    .img {
+    .ComputerImg {
         margin-top: 64px;
+        max-width: 50%;
+        height: auto;
     }
 
     .screen_button {
         width: 100%;
     }
+
+    .BigBlueBoxImg {
+        display: none;
+    }
+
+    .Boldsubtitle {
+        display: none;
+    }
+
+    .OneBlueBox {
+        width: 45%;
+        margin: 4px;
+        flex: auto;
+    }
+
+    .BlueBoxTitle {
+        font-size: 12px;
+        line-height: 12px;
+    }
+
+    .BlueBoxSubitle {
+        font-size: 9px;
+        line-height: 12px;
+    }
+
+    .list_item {
+        flex: auto;
+    }
+
+    #lastbluebox {
+        display: flex;
+        justify-content: center;
+    }
+
+    .footer_text {
+        flex-direction: column;
+        align-items: center;
+        height: auto;
+    }
+
+    .footer_right {
+        flex-direction: column;
+    }
+
+    .footer_right_info {
+        height: 168px;
+        align-items: center;
+    }
+
+    .adress {
+        text-align: center;
+    }
+
+    .footer_copy {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footer_menu {
+        align-items: center;
+        margin: 0;
+    }
+
+    .footer_menu_item {
+        padding: 16px 0;
+    }
+
+    .social_network {
+        display: flex;
+        justify-content: center;
+    }
 }
 
 @media (max-width: 600px) {
-    main {
-        margin-top: 40px;
-    }
 
     .logo {
       font-size: 24px;
     }
 
-    .title {
+    .title, .Boldtitle {
         font-size: 24px;
         line-height: 24px;
         margin-bottom: 16px;
@@ -91,25 +161,22 @@
 }
 
 @media (max-width: 480px) {
-    main {
-        margin-top: 20px;
-    }
 
     .logo {
       font-size: 20px;
     }
     
-    .title {
+    .title, .Boldtitle {
         font-size: 24px;
         line-height: 24px;
         margin-bottom: 16px;
     }
 
     .subtitle {
-    font-weight: 400;
-    font-size: 12px;
-    line-height: 18px;
-    margin-top: 8px;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 18px;
+        margin-top: 8px;
     }
 
     .screen_button {
